@@ -4,9 +4,14 @@ Manage your mammon, and let not your mammon manage you.
 
 ## Table of Contents
 
-* [To Do](#to-do)
-* [Get started](#get-started)
-* [Deploying to the web](#deploying-to-the-web)
+- [Mammon Manager](#mammon-manager)
+  - [Table of Contents](#table-of-contents)
+  - [To Do](#to-do)
+  - [App Structure](#app-structure)
+  - [Get started](#get-started)
+  - [Deploying to the web](#deploying-to-the-web)
+    - [With now](#with-now)
+    - [With surge](#with-surge)
 
 ## To Do
 
