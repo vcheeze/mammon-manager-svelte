@@ -1,0 +1,99 @@
+/*----------------------------------------
+	TABLE OF CONTENTS
+	- setup
+	- header
+	- anchor
+	- label
+	- input
+	- button
+	----------------------------------------*/
+
+/*--------------------------
+ |          setup          |
+ ---------------------------*/
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 1rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/*---------------------------
+ |          header          |
+ ----------------------------*/
+
+
+/*---------------------------
+ |          anchor          |
+ ----------------------------*/
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+/*--------------------------
+ |          label          |
+ ---------------------------*/
+label {
+	display: block;
+}
+
+/*--------------------------
+ |          input          |
+ ---------------------------*/
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	border: 1px solid #ccc;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+input[type="range"] {
+	height: 0;
+}
+
+/*---------------------------
+ |          button          |
+ ----------------------------*/
+button {
+	border-radius: 0;
+	padding-right: 1em;
+	padding-left: 1em;
+	background-color: #f4f4f4;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.08rem;
+	outline: none;
+	cursor: pointer;
+}
+
+button:active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
